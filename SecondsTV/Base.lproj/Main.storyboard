@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SecondsTV" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="timeLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQd-qI-JTr">
+                                <rect key="frame" x="0.0" y="292" width="1920" height="496"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="250"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9oX-nx-byo" userLabel="dateLabel">
+                                <rect key="frame" x="0.0" y="292" width="1920" height="66"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="61"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9oX-nx-byo" secondAttribute="bottom" constant="722" id="FR3-tV-nMj"/>
+                            <constraint firstItem="XQd-qI-JTr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="NbO-pf-wNd"/>
+                            <constraint firstAttribute="trailing" secondItem="XQd-qI-JTr" secondAttribute="trailing" id="TYE-I4-g3c"/>
+                            <constraint firstItem="XQd-qI-JTr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Voq-vc-RoV"/>
+                            <constraint firstItem="9oX-nx-byo" firstAttribute="leading" secondItem="XQd-qI-JTr" secondAttribute="leading" id="YBj-vs-CpK"/>
+                            <constraint firstItem="9oX-nx-byo" firstAttribute="top" secondItem="XQd-qI-JTr" secondAttribute="top" id="c8s-Gg-tJQ"/>
+                            <constraint firstItem="XQd-qI-JTr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="292" id="fEB-MH-vNX"/>
+                            <constraint firstItem="9oX-nx-byo" firstAttribute="trailing" secondItem="XQd-qI-JTr" secondAttribute="trailing" id="nwH-N0-beM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="9oX-nx-byo" id="oXJ-g9-HT5"/>
+                        <outlet property="timeLabel" destination="XQd-qI-JTr" id="gek-WB-btc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="378" y="119"/>
+        </scene>
+    </scenes>
+</document>

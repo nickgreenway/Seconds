@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A13B49711BC809EE0055A4D0 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13B49701BC809EE0055A4D0 /* Clock.swift */; };
 		A1E451B01BC7FD53000A6675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E451AF1BC7FD53000A6675 /* AppDelegate.swift */; };
 		A1E451B21BC7FD53000A6675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E451B11BC7FD53000A6675 /* ViewController.swift */; };
 		A1E451B51BC7FD53000A6675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E451B31BC7FD53000A6675 /* Main.storyboard */; };
@@ -22,6 +23,16 @@
 		A1E451DB1BC7FD53000A6675 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E451DA1BC7FD53000A6675 /* GlanceController.swift */; };
 		A1E451DD1BC7FD53000A6675 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E451DC1BC7FD53000A6675 /* ComplicationController.swift */; };
 		A1E451DF1BC7FD53000A6675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E451DE1BC7FD53000A6675 /* Assets.xcassets */; };
+		A1EA115C1BE25B0300B07236 /* ClockWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EA115B1BE25B0300B07236 /* ClockWatch.swift */; };
+		A1EA115D1BE25B0300B07236 /* ClockWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EA115B1BE25B0300B07236 /* ClockWatch.swift */; };
+		A1EA11691BE2F44600B07236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EA11681BE2F44600B07236 /* AppDelegate.swift */; };
+		A1EA116B1BE2F44600B07236 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EA116A1BE2F44600B07236 /* ViewController.swift */; };
+		A1EA116E1BE2F44600B07236 /* SecondsTV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1EA116C1BE2F44600B07236 /* SecondsTV.xcdatamodeld */; };
+		A1EA11711BE2F44600B07236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EA116F1BE2F44600B07236 /* Main.storyboard */; };
+		A1EA11731BE2F44700B07236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EA11721BE2F44700B07236 /* Assets.xcassets */; };
+		A1EA117C1BE2F84E00B07236 /* ClockTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EA117B1BE2F84E00B07236 /* ClockTV.swift */; };
+		A1EA117D1BE2F84E00B07236 /* ClockTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EA117B1BE2F84E00B07236 /* ClockTV.swift */; };
+		A1FB55001BCEF9300074EB6F /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FB54FF1BCEF9300074EB6F /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +78,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A13B49701BC809EE0055A4D0 /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 		A1E451AC1BC7FD53000A6675 /* Seconds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seconds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E451AF1BC7FD53000A6675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1E451B11BC7FD53000A6675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +99,16 @@
 		A1E451DC1BC7FD53000A6675 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		A1E451DE1BC7FD53000A6675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1E451E01BC7FD53000A6675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EA115B1BE25B0300B07236 /* ClockWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClockWatch.swift; path = "Seconds WatchKit Extension/ClockWatch.swift"; sourceTree = SOURCE_ROOT; };
+		A1EA11661BE2F44600B07236 /* SecondsTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondsTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EA11681BE2F44600B07236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1EA116A1BE2F44600B07236 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1EA116D1BE2F44600B07236 /* SecondsTV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SecondsTV.xcdatamodel; sourceTree = "<group>"; };
+		A1EA11701BE2F44600B07236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1EA11721BE2F44700B07236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1EA11741BE2F44700B07236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EA117B1BE2F84E00B07236 /* ClockTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClockTV.swift; path = SecondsTV/ClockTV.swift; sourceTree = SOURCE_ROOT; };
+		A1FB54FF1BCEF9300074EB6F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +116,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1FB55001BCEF9300074EB6F /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A1E451CA1BC7FD53000A6675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EA11631BE2F44600B07236 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -110,9 +140,11 @@
 		A1E451A31BC7FD53000A6675 = {
 			isa = PBXGroup;
 			children = (
+				A1FB54FF1BCEF9300074EB6F /* iAd.framework */,
 				A1E451AE1BC7FD53000A6675 /* Seconds */,
-				A1E451C21BC7FD53000A6675 /* Seconds WatchKit App */,
-				A1E451D11BC7FD53000A6675 /* Seconds WatchKit Extension */,
+				A1E451C21BC7FD53000A6675 /* Seconds */,
+				A1E451D11BC7FD53000A6675 /* Seconds */,
+				A1EA11671BE2F44600B07236 /* SecondsTV */,
 				A1E451AD1BC7FD53000A6675 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,6 +155,7 @@
 				A1E451AC1BC7FD53000A6675 /* Seconds.app */,
 				A1E451BE1BC7FD53000A6675 /* Seconds WatchKit App.app */,
 				A1E451CD1BC7FD53000A6675 /* Seconds WatchKit Extension.appex */,
+				A1EA11661BE2F44600B07236 /* SecondsTV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +165,7 @@
 			children = (
 				A1E451AF1BC7FD53000A6675 /* AppDelegate.swift */,
 				A1E451B11BC7FD53000A6675 /* ViewController.swift */,
+				A13B49701BC809EE0055A4D0 /* Clock.swift */,
 				A1E451B31BC7FD53000A6675 /* Main.storyboard */,
 				A1E451B61BC7FD53000A6675 /* Assets.xcassets */,
 				A1E451B81BC7FD53000A6675 /* LaunchScreen.storyboard */,
@@ -140,20 +174,22 @@
 			path = Seconds;
 			sourceTree = "<group>";
 		};
-		A1E451C21BC7FD53000A6675 /* Seconds WatchKit App */ = {
+		A1E451C21BC7FD53000A6675 /* Seconds */ = {
 			isa = PBXGroup;
 			children = (
 				A1E451C31BC7FD53000A6675 /* Interface.storyboard */,
 				A1E451C61BC7FD53000A6675 /* Assets.xcassets */,
 				A1E451C81BC7FD53000A6675 /* Info.plist */,
 			);
+			name = Seconds;
 			path = "Seconds WatchKit App";
 			sourceTree = "<group>";
 		};
-		A1E451D11BC7FD53000A6675 /* Seconds WatchKit Extension */ = {
+		A1E451D11BC7FD53000A6675 /* Seconds */ = {
 			isa = PBXGroup;
 			children = (
 				A1E451D41BC7FD53000A6675 /* InterfaceController.swift */,
+				A1EA115B1BE25B0300B07236 /* ClockWatch.swift */,
 				A1E451D61BC7FD53000A6675 /* ExtensionDelegate.swift */,
 				A1E451D81BC7FD53000A6675 /* NotificationController.swift */,
 				A1E451DA1BC7FD53000A6675 /* GlanceController.swift */,
@@ -162,6 +198,7 @@
 				A1E451E01BC7FD53000A6675 /* Info.plist */,
 				A1E451D21BC7FD53000A6675 /* Supporting Files */,
 			);
+			name = Seconds;
 			path = "Seconds WatchKit Extension";
 			sourceTree = "<group>";
 		};
@@ -171,6 +208,20 @@
 				A1E451D31BC7FD53000A6675 /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1EA11671BE2F44600B07236 /* SecondsTV */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA11681BE2F44600B07236 /* AppDelegate.swift */,
+				A1EA116A1BE2F44600B07236 /* ViewController.swift */,
+				A1EA117B1BE2F84E00B07236 /* ClockTV.swift */,
+				A1EA116F1BE2F44600B07236 /* Main.storyboard */,
+				A1EA11721BE2F44700B07236 /* Assets.xcassets */,
+				A1EA11741BE2F44700B07236 /* Info.plist */,
+				A1EA116C1BE2F44600B07236 /* SecondsTV.xcdatamodeld */,
+			);
+			path = SecondsTV;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +280,23 @@
 			productReference = A1E451CD1BC7FD53000A6675 /* Seconds WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
+		A1EA11651BE2F44600B07236 /* SecondsTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EA11751BE2F44700B07236 /* Build configuration list for PBXNativeTarget "SecondsTV" */;
+			buildPhases = (
+				A1EA11621BE2F44600B07236 /* Sources */,
+				A1EA11631BE2F44600B07236 /* Frameworks */,
+				A1EA11641BE2F44600B07236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecondsTV;
+			productName = SecondsTV;
+			productReference = A1EA11661BE2F44600B07236 /* SecondsTV.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -241,12 +309,19 @@
 				TargetAttributes = {
 					A1E451AB1BC7FD53000A6675 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = XUK9L4M953;
 					};
 					A1E451BD1BC7FD53000A6675 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = XUK9L4M953;
 					};
 					A1E451CC1BC7FD53000A6675 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = XUK9L4M953;
+					};
+					A1EA11651BE2F44600B07236 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = XUK9L4M953;
 					};
 				};
 			};
@@ -266,6 +341,7 @@
 				A1E451AB1BC7FD53000A6675 /* Seconds */,
 				A1E451BD1BC7FD53000A6675 /* Seconds WatchKit App */,
 				A1E451CC1BC7FD53000A6675 /* Seconds WatchKit Extension */,
+				A1EA11651BE2F44600B07236 /* SecondsTV */,
 			);
 		};
 /* End PBXProject section */
@@ -298,6 +374,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1EA11641BE2F44600B07236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EA11731BE2F44700B07236 /* Assets.xcassets in Resources */,
+				A1EA11711BE2F44600B07236 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -305,7 +390,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13B49711BC809EE0055A4D0 /* Clock.swift in Sources */,
 				A1E451B21BC7FD53000A6675 /* ViewController.swift in Sources */,
+				A1EA117C1BE2F84E00B07236 /* ClockTV.swift in Sources */,
+				A1EA115C1BE25B0300B07236 /* ClockWatch.swift in Sources */,
 				A1E451B01BC7FD53000A6675 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,11 +402,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1EA115D1BE25B0300B07236 /* ClockWatch.swift in Sources */,
 				A1E451D91BC7FD53000A6675 /* NotificationController.swift in Sources */,
 				A1E451D71BC7FD53000A6675 /* ExtensionDelegate.swift in Sources */,
 				A1E451DD1BC7FD53000A6675 /* ComplicationController.swift in Sources */,
 				A1E451D51BC7FD53000A6675 /* InterfaceController.swift in Sources */,
 				A1E451DB1BC7FD53000A6675 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EA11621BE2F44600B07236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EA116B1BE2F44600B07236 /* ViewController.swift in Sources */,
+				A1EA11691BE2F44600B07236 /* AppDelegate.swift in Sources */,
+				A1EA117D1BE2F84E00B07236 /* ClockTV.swift in Sources */,
+				A1EA116E1BE2F44600B07236 /* SecondsTV.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +462,14 @@
 			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
+		A1EA116F1BE2F44600B07236 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1EA11701BE2F44600B07236 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -401,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -439,7 +547,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -450,6 +558,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Seconds WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.Seconds.watchkitapp.watchkitextension;
@@ -465,6 +574,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Seconds WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.Seconds.watchkitapp.watchkitextension;
@@ -480,6 +590,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Seconds_WatchKit_Extension;
 				INFOPLIST_FILE = "Seconds WatchKit App/Info.plist";
@@ -496,6 +607,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Seconds_WatchKit_Extension;
 				INFOPLIST_FILE = "Seconds WatchKit App/Info.plist";
@@ -512,7 +624,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Seconds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.Seconds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -523,10 +637,48 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Seconds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.Seconds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1EA11761BE2F44700B07236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SecondsTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.SecondsTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A1EA11771BE2F44700B07236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SecondsTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.SecondsTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -549,6 +701,7 @@
 				A1E451E51BC7FD53000A6675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1E451E71BC7FD53000A6675 /* Build configuration list for PBXNativeTarget "Seconds WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +710,7 @@
 				A1E451E91BC7FD53000A6675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1E451EB1BC7FD53000A6675 /* Build configuration list for PBXNativeTarget "Seconds" */ = {
 			isa = XCConfigurationList;
@@ -565,8 +719,31 @@
 				A1E451ED1BC7FD53000A6675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EA11751BE2F44700B07236 /* Build configuration list for PBXNativeTarget "SecondsTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EA11761BE2F44700B07236 /* Debug */,
+				A1EA11771BE2F44700B07236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1EA116C1BE2F44600B07236 /* SecondsTV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1EA116D1BE2F44600B07236 /* SecondsTV.xcdatamodel */,
+			);
+			currentVersion = A1EA116D1BE2F44600B07236 /* SecondsTV.xcdatamodel */;
+			path = SecondsTV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A1E451A41BC7FD53000A6675 /* Project object */;
 }

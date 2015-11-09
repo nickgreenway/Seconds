@@ -1,26 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9019"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Seconds_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="136" height="25" alignment="center" text="dateLabel" textAlignment="center" numberOfLines="2" id="p4O-8T-jbT">
+                            <fontDescription key="font" type="system" pointSize="15"/>
+                        </label>
+                        <label width="1" alignment="left" text="Label" textAlignment="center" baselineAdjustment="alignCenters" id="sf2-L0-qMC">
+                            <fontDescription key="font" type="system" pointSize="25"/>
+                        </label>
+                        <label width="1" height="87" alignment="left" verticalAlignment="center" text="percentLabel" textAlignment="center" id="iBh-IO-Bfd">
+                            <fontDescription key="font" type="system" pointSize="68"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="dateLable" destination="p4O-8T-jbT" id="TxQ-eu-D4G"/>
+                        <outlet property="percentLabel" destination="iBh-IO-Bfd" id="28d-VH-vH0"/>
+                        <outlet property="timeLabel" destination="sf2-L0-qMC" id="biJ-6N-QxL"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="235" y="347"/>
+            <point key="canvasLocation" x="235" y="355"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">
             <objects>
-                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController" customModuleProvider="target">
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController" customModule="Seconds_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <group alignment="left" id="t8f-Gd-c4y"/>
-                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                        <group alignment="left" spacing="8" id="t8f-Gd-c4y">
+                            <items>
+                                <imageView alignment="center" verticalAlignment="center" image="80x80" contentMode="TopLeft" id="kwp-WB-vJY"/>
+                                <label alignment="center" verticalAlignment="center" text="Sec?" textAlignment="center" id="bX6-7g-Qec">
+                                    <fontDescription key="font" type="system" pointSize="25"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group alignment="left" layout="vertical" id="uCw-4Q-Ouw">
+                            <items>
+                                <label width="1" height="41.5" alignment="left" text="timeLabel" textAlignment="center" id="Kce-N0-b6w">
+                                    <fontDescription key="font" type="system" pointSize="25"/>
+                                </label>
+                                <label width="136" height="69" alignment="left" text="percentLabel" textAlignment="center" id="DHd-q2-hUc">
+                                    <fontDescription key="font" type="system" pointSize="56"/>
+                                </label>
+                            </items>
+                        </group>
                     </items>
                     <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                    <connections>
+                        <outlet property="percentLabel" destination="DHd-q2-hUc" id="FRs-xd-Hab"/>
+                        <outlet property="timeLabel" destination="Kce-N0-b6w" id="atg-Vu-3bX"/>
+                    </connections>
                 </glanceController>
             </objects>
             <point key="canvasLocation" x="235" y="672"/>
@@ -44,7 +81,7 @@
         <!--Notification Controller-->
         <scene sceneID="KIl-fV-djm">
             <objects>
-                <controller id="gdX-wl-uQE" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="gdX-wl-uQE" customClass="NotificationController" customModule="Seconds_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="553" y="1001"/>
         </scene>

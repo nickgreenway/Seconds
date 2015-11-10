@@ -11,14 +11,10 @@ import iAd
 
 class ViewController: UIViewController, ADBannerViewDelegate {
     
-    @IBOutlet var AdBanner: ADBannerView!
+    
     @IBOutlet weak var dayPercentLabel: UILabel!
-    
-    
-    
     @IBOutlet var background: UIView!
     @IBOutlet weak var todayLabel: UILabel!
-    
     @IBOutlet weak var timeLabel: UILabel!
     
     let clock = Clock()
@@ -29,9 +25,7 @@ class ViewController: UIViewController, ADBannerViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.canDisplayBannerAds = true
-        self.AdBanner?.delegate = self
-        self.AdBanner?.hidden  = true
+     
         
         timeNumberformatter.dateFormat = "A"
         timeFormatter.dateFormat = "A"
@@ -95,8 +89,6 @@ override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
             timer.invalidate()
         }
     }
-    func bannerViewDidLoadAd(banner: ADBannerView!) {
-        self.AdBanner?.hidden = false
-    }
+    
 }
 
